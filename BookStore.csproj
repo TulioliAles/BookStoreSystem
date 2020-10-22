@@ -132,12 +132,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202010212045416_v1.cs" />
-    <Compile Include="Migrations\202010212045416_v1.designer.cs">
-      <DependentUpon>202010212045416_v1.cs</DependentUpon>
+    <Compile Include="Mapping\AutorMap.cs" />
+    <Compile Include="Mapping\CategoriaMap.cs" />
+    <Compile Include="Mapping\LivroMap.cs" />
+    <Compile Include="Migrations\202010221833262_v1.cs" />
+    <Compile Include="Migrations\202010221833262_v1.designer.cs">
+      <DependentUpon>202010221833262_v1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\VincularLivroAutorViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -193,15 +197,15 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202010212045416_v1.resx">
-      <DependentUpon>202010212045416_v1.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\BookStoreDomain\BookStoreDomain.csproj">
       <Project>{cb76b8b1-6a1d-4ca1-9b27-1b47ea6ea319}</Project>
       <Name>BookStoreDomain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202010221833262_v1.resx">
+      <DependentUpon>202010221833262_v1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
