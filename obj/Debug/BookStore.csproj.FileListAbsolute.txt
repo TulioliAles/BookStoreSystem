@@ -86,9 +86,9 @@ C:\work\aspnet\BookStore\bin\pt-br\System.Web.WebPages.resources.dll
 C:\work\aspnet\BookStore\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\work\aspnet\BookStore\bin\pt-br\System.Web.WebPages.Razor.resources.dll
 C:\work\aspnet\BookStore\obj\Debug\BookStore.csprojAssemblyReference.cache
+C:\work\aspnet\BookStore\obj\Debug\BookStore.Migrations.v1.resources
+C:\work\aspnet\BookStore\obj\Debug\BookStore.csproj.GenerateResource.cache
 C:\work\aspnet\BookStore\obj\Debug\BookStore.csproj.CoreCompileInputs.cache
 C:\work\aspnet\BookStore\obj\Debug\BookStore.csproj.CopyComplete
 C:\work\aspnet\BookStore\obj\Debug\BookStore.dll
 C:\work\aspnet\BookStore\obj\Debug\BookStore.pdb
-C:\work\aspnet\BookStore\obj\Debug\BookStore.Migrations.v1.resources
-C:\work\aspnet\BookStore\obj\Debug\BookStore.csproj.GenerateResource.cache
