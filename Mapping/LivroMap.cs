@@ -8,7 +8,6 @@ namespace BookStore.Mapping
         public LivroMap()
         {
             ToTable("Livro");
-
             HasKey(x => x.Id);
             Property(x => x.Titulo).HasMaxLength(60).IsRequired();
             Property(x => x.ISBN).HasMaxLength(32).IsRequired();

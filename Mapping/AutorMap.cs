@@ -8,10 +8,8 @@ namespace BookStore.Mapping
         public AutorMap()
         {
             ToTable("Autor");
-
             HasKey(x => x.Id);
             Property(x => x.Nome).HasMaxLength(60).IsRequired();
-
             HasMany(x => x.Livros).WithMany(x => x.Autores).Map(x => x.ToTable("LivroAutor"));
         }
     }
